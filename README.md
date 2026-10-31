@@ -1,3 +1,12 @@
+---
+license: apache-2.0
+pretty_name: GrokFlinch
+tags:
+  - ai-behavior
+  - video-analysis
+  - research-record
+---
+
 # grokflinch
 
 A record of observed behavior in Grok video-analysis sessions, October 2026.
@@ -63,3 +72,17 @@ Claims are separated from hypotheses. Refutations are recorded alongside finding
 ---
 
 *Session date: 2026-10-18. Record created by Grok (SpaceXAI) during live conversation with LAWLESS1987.*
+
+---
+
+## Part of one system — each piece usable on its own
+
+These repositories are independent instruments that also compose into a single apparatus for **building and honestly auditing trustworthy multi-intelligence systems**. Any one can be used standalone; together they form the stack:
+
+- **Governed core** — [covenant](https://huggingface.co/Lawless1987/covenant): a self-governing multi-agent system with an ethics gate inside the transaction path.
+- **Observability & provenance** — [threefold](https://huggingface.co/Lawless1987/threefold) (the L-lens layer over Jacobian Lens) and [threefold-memory](https://huggingface.co/Lawless1987/threefold-memory) (its persistent, provenance-tracked memory): every action measured and recorded under one task identity.
+- **Measurement instruments** — [contradiction-probe](https://huggingface.co/Lawless1987/contradiction-probe) and [flinch-observability](https://huggingface.co/Lawless1987/flinch-observability), with the session records [flinch-record](https://huggingface.co/Lawless1987/flinch-record) and [grokflinch](https://huggingface.co/Lawless1987/grokflinch): preregistered, blind-scored tests of AI behaviour that embody the covenant's rule — *investigate a signal, never convict on one*.
+- **Neuromorphic research** — [spiking-experiments](https://huggingface.co/Lawless1987/spiking-experiments): from-scratch spiking-network experiments with the pass/fail bar declared before each run.
+- **Ledger surface** — [Sentinel-Witness](https://huggingface.co/Lawless1987/Sentinel-Witness): the trading / ledger dashboard.
+
+**This repository's place in it:** verifiable observations of that pattern in a single real model session.
