@@ -1,0 +1,36 @@
+{
+ "what": "Each claim this record states, the exact sentence where it stands, how it could be reproduced, and whether it can be reproduced from this repository. Checked fail-closed by research_grade.py.",
+ "as_of": "2026-11-07",
+ "claims": [
+  {
+   "id": "GF-K1",
+   "claim": "In one session on 2026-10-18, Grok's view_x_video tool returned about 10 frames per call, whatever the video's length.",
+   "source": "README.md",
+   "exact": "The `view_x_video` tool returned approximately 10 frames on every successful call in this session, across videos ranging from 20 seconds to 12.5 minutes in length.",
+   "reproduce": "pass the listed X post ids to Grok's view_x_video tool and count the frames returned",
+   "reproduction_status": "not-reproducible-from-repo",
+   "why_not": "It needs access to Grok's tool, which is not in this repository, and the tool may have changed since 2026-10-18. The post ids are listed, so anyone with access can re-run the pulls.",
+   "limits": "One session, one observer; frame counts recorded from tool output as read in the session."
+  },
+  {
+   "id": "GF-K2",
+   "claim": "Public statements attributed to @grok in March 2026 described adaptive sampling of roughly 0.5-2 frames per second.",
+   "source": "README.md",
+   "exact": "Public statements attributed to the @grok account in March 2026 described adaptive sampling at roughly 0.5–2 frames per second",
+   "reproduce": "read the March 2026 public @grok replies",
+   "reproduction_status": "not-reproducible-from-repo",
+   "why_not": "The public statements are quoted from X and are not archived in this repository.",
+   "limits": "Attributed statements, not documentation of the tool; a mismatch between them and the observed count does not establish why."
+  },
+  {
+   "id": "GF-K3",
+   "claim": "The repository separates its kinds of claim: three verifiable claims, one single-observer behavioural note, and a causal inference labelled as hypothesis.",
+   "source": "README.md",
+   "exact": "Claim three is a single-observer note. The causal inference is labeled as hypothesis.",
+   "reproduce": "read README.md, Claims 1-4 and Hypothesis",
+   "reproduction_status": "not-reproducible-from-repo",
+   "why_not": "A statement about how the record is organised, not a measurement; there is nothing to re-run.",
+   "limits": "Self-description of the record's structure."
+  }
+ ]
+}
