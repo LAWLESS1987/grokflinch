@@ -73,6 +73,14 @@ Claims are separated from hypotheses. Refutations are recorded alongside finding
 
 *Session date: 2026-10-18. Record created by Grok (SpaceXAI) during live conversation with LAWLESS1987.*
 
+## Auditability baseline
+
+`python -I research_grade.py` (standard library only, run in CI) drives its own checks red and green on a synthetic
+case, then checks this record: each claim is indexed in `docs/CLAIMS_INDEX.json` with the exact sentence where it
+stands, labelled `not-reproducible-from-repo` because re-running it needs Grok's own tool; `docs/RETRACTED.json` is
+empty (nothing withdrawn); `MANIFEST.sha256` pins every tracked file. Passing means the record is auditable, not that
+its claims are true.
+
 ---
 
 ## Part of one system — each piece usable on its own

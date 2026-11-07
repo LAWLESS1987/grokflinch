@@ -1,0 +1,9 @@
+{
+ "what": "Claims this repository published and then withdrew. Read by research_grade.py: a withdrawn wording may appear anywhere only if its id is cited within window lines. Empty on 2026-11-07: the record keeps refutations beside findings and labels its hypothesis as one; no claim has been withdrawn.",
+ "window": 10,
+ "coverage_floor": 2,
+ "expect_dirs": [
+  "docs"
+ ],
+ "retractions": []
+}
